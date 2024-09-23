@@ -1,0 +1,5 @@
+﻿@page "/demo1"
+<h3>Demo1</h3>
+<p class="toto">@prop</p>
+<button class="btn" @onclick="Increment" disabled="@isInactive">+</button>
+<button class="btn" @onclick="(() => Add(42))">+</button>
